@@ -1,0 +1,8 @@
+# Default sponsor button for every public paqu-io repository.
+# Repositories with their own .github/FUNDING.yml override this file.
+#
+# Entries pointing at accounts that do not exist yet are hidden silently, so
+# uncomment each line only once that account is live.
+
+# github: [paqu-io]
+# open_collective: form0
