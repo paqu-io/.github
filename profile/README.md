@@ -17,5 +17,5 @@ form0 is **MIT licensed and free, and stays that way**. It's the whole engine, n
 - **Open by default.** The engine is public, the roadmap is public, and the issues are where the real conversation happens.
 - **Built for the field.** Offline isn't an edge case we handle later, it's the starting assumption.
 
-## [📢 Say hello](https://github.com/orgs/paqu-io/discussions/1)
+## 📢 [Say hello](https://github.com/orgs/paqu-io/discussions/1)
 We like hearing what people are building, and we read everything that arrives.
