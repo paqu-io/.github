@@ -3,9 +3,9 @@
 Thanks for taking the time. form0 is an open-source form ecosystem — an engine,
 a CLI, framework bindings and connectors — released under the MIT License.
 
-This file is the default for every public repository in the
-[paqu-io](https://github.com/paqu-io) organisation. Where a repository has its
-own `CONTRIBUTING.md`, that one wins.
+This guidance is shared across the public form0 repositories in the
+[paqu-io](https://github.com/paqu-io) organisation. Repository-specific instructions take
+precedence where they differ.
 
 ## Ways to help
 
@@ -32,6 +32,8 @@ trip, but if you are unsure, open the issue anywhere — we will move it.
 | [`form0-react-native`](https://github.com/paqu-io/form0-react-native) | React Native bindings |
 | [`form0-connector-pg`](https://github.com/paqu-io/form0-connector-pg) | PostgreSQL persistence |
 | [`form0-connector-sqlite`](https://github.com/paqu-io/form0-connector-sqlite) | SQLite persistence |
+| [`form0-web-tmpl-react-vite`](https://github.com/paqu-io/form0-web-tmpl-react-vite) | React and Vite starter |
+| [`form0-mobile-tmpl-react-native-expo`](https://github.com/paqu-io/form0-mobile-tmpl-react-native-expo) | React Native and Expo starter |
 
 If behaviour is wrong when the schema is evaluated, it is almost always
 `form0-core` — even when you noticed it through the CLI or a binding.
@@ -109,8 +111,7 @@ people build on.
 
 **Do not open a public issue for a security problem.** form0 evaluates
 expressions from form schemas, so a report there can be genuinely sensitive.
-Email <support@paqu.io> instead, and see `SECURITY.md` in the affected
-repository.
+Use the private reporting link in `SECURITY.md` in the affected repository.
 
 ## Licence
 
