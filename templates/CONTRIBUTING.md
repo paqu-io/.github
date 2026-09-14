@@ -34,6 +34,7 @@ trip, but if you are unsure, open the issue anywhere — we will move it.
 | [`form0-connector-sqlite`](https://github.com/paqu-io/form0-connector-sqlite) | SQLite persistence |
 | [`form0-web-tmpl-react-vite`](https://github.com/paqu-io/form0-web-tmpl-react-vite) | React and Vite starter |
 | [`form0-mobile-tmpl-react-native-expo`](https://github.com/paqu-io/form0-mobile-tmpl-react-native-expo) | React Native and Expo starter |
+| [`form0-docs-zudoku`](https://github.com/paqu-io/form0-docs-zudoku) | Documentation |
 
 If behaviour is wrong when the schema is evaluated, it is almost always
 `form0-core` — even when you noticed it through the CLI or a binding.
