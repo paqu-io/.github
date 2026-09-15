@@ -6,8 +6,8 @@ Everything we make comes back to one problem. Forms are how most real-world data
 
 ## What we make
 
-- [form0](https://form0.dev)
-- [reform](https://reformapp.io)
+- 🔧 [form0](https://form0.dev)
+- 📋 [reform](https://reformapp.io)
 
 ## How the two fit together
 form0 is **MIT licensed and free, and stays that way**. It's the whole engine, not a crippled version of something else. reform is the hosted platform built on it, for teams who'd rather not run any of this themselves.
