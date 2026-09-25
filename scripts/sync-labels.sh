@@ -74,11 +74,11 @@ for repo in "${REPOS[@]}"; do
        grep -Fxq "for discussion"; then
 
     if ! gh label list --repo "$full_repo" --json name --jq '.[].name' |
-         grep -Fxq "needs-discussion"; then
+         grep -Fxq "needs discussion"; then
       gh label edit "for discussion" \
         --repo "$full_repo" \
-        --name "needs-discussion" \
-        --description "Requires design or scope discussion before implementation"
+        --name "needs discussion" \
+        --description "requires design or scope discussion before implementation"
     fi
   fi
 
@@ -86,11 +86,11 @@ for repo in "${REPOS[@]}"; do
        grep -Fxq "question"; then
 
     if ! gh label list --repo "$full_repo" --json name --jq '.[].name' |
-         grep -Fxq "needs-info"; then
+         grep -Fxq "needs info"; then
       gh label edit "question" \
         --repo "$full_repo" \
-        --name "needs-info" \
-        --description "More information is needed before this can progress"
+        --name "needs info" \
+        --description "more information is needed before this can progress"
     fi
   fi
 
