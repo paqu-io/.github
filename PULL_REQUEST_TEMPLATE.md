@@ -1,24 +1,18 @@
-## Summary
+## What changed?
 
-<!-- What does this change, and why is it needed? -->
+<!-- Briefly describe the change and why it is needed. -->
 
 ## Related issue
 
 <!-- Use "Closes #123" when applicable, or write "None". -->
 
-## User-facing impact
-
-<!-- Describe API, behavior, documentation, configuration, or migration impact. Write "None" when applicable. -->
-
 ## Validation
 
-<!-- List the commands, tests, or manual checks you ran. -->
+<!-- What tests, checks, or manual verification did you perform? -->
 
-- [ ] I ran the repository's documented checks.
-- [ ] I added or updated tests when behavior changed.
-- [ ] I updated documentation when user-facing behavior changed.
-- [ ] I reviewed the final diff for unrelated changes and sensitive information.
+## Notes
 
-## Notes for reviewers
+<!-- Breaking changes, screenshots, documentation changes, limitations, or follow-up work. Optional. -->
 
-<!-- Mention important design decisions, limitations, screenshots, or follow-up work. -->
+- [ ] Relevant tests/checks pass.
+- [ ] Tests and documentation were updated where needed.
