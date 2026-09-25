@@ -1,0 +1,49 @@
+name: Bug report
+description: Report unexpected behavior
+type: bug
+
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Briefly describe what happened and what you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Share the smallest schema, code sample, or steps that reproduce the problem.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: e.g. form0-core 0.3.0
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Node, browser, OS, or runtime if relevant.
+      placeholder: e.g. Node 22 / Chrome 154 / Windows 11
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Logs, screenshots, links, or other useful context.
+    validations:
+      required: false
