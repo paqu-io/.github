@@ -32,20 +32,20 @@ body:
       required: true
 
   - type: dropdown
-  id: environment
-  attributes:
-    label: Where does this happen?
-    description: Select all that apply.
-    multiple: true
-    options:
-      - Browser / web
-      - Node.js
-      - React
-      - React Native
-      - form0 CLI
-      - Other
-  validations:
-    required: false
+    id: environment
+    attributes:
+      label: Where does this happen?
+      description: Select all that apply.
+      multiple: true
+      options:
+        - Browser / web
+        - Node.js
+        - React
+        - React Native
+        - form0 CLI
+        - Other
+    validations:
+      required: false
 
   - type: textarea
     id: context
