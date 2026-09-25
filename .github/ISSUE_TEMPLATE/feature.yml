@@ -19,6 +19,22 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Where do you think this belongs?
+      options:
+        - Core / form engine
+        - CLI / developer tooling
+        - React
+        - React Native
+        - Connectors / storage
+        - Documentation
+        - Not sure / other
+    validations:
+      required: false
+
   - type: textarea
     id: context
     attributes:
