@@ -1,0 +1,19 @@
+name: Add issue to form0 project
+
+on:
+  workflow_call:
+    secrets:
+      ADD_TO_PROJECT_PAT:
+        required: true
+
+jobs:
+  add-to-project:
+    if: ${{ !contains(github.event.issue.labels.*.name, 'release-notes') }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Add issue to form0 project
+        uses: actions/add-to-project@v2
+        with:
+          project-url: https://github.com/orgs/paqu-io/projects/5
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
