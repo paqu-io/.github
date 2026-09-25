@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest a new capability or improvement
+type: feature
+
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What are you trying to build or do, and what is getting in the way?
+    validations:
+      required: true
+
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Desired behavior
+      description: What would you like form0 to support?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Examples, alternatives, screenshots, links, or implementation ideas.
+    validations:
+      required: false
