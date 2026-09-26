@@ -9,7 +9,6 @@ LABELS=(
   "needs triage|c5def5|needs maintainer triage"
   "needs discussion|672028|requires design or scope discussion before implementation"
   "needs info|d876e3|more information is needed before this can progress"
-  "blocked|826236|cannot progress because of another issue/dependency"
 
   "documentation|0075ca|improvements or additions to documentation"
   "performance|CAF58F|performance-related work"
@@ -40,6 +39,7 @@ RETIRED_LABELS=(
   "wiki"
   "won't do"
   "wont do"
+  "blocked"
 )
 
 echo "Discovering public form0 repositories in ${ORG}..."
